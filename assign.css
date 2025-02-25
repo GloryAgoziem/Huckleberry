@@ -1,0 +1,119 @@
+.huckle{
+    background-color: #FFFFFF;
+    font: lato;
+    margin-top: 96px;
+    margin-left: 256px;
+    width: 1280px;
+    height:282px
+}
+.huckle h2{
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 38.4px;
+    width: 180px;
+    height: 38px;
+    /* margin-top: 96px;
+    margin-left: 256px; */
+}
+.huckle p{
+    width: 415px;
+    /* height: 38px; */
+}
+span{
+    color: rgb(28, 155, 28);
+}
+.main{
+    background-color: gray;
+    width: 1280px;
+    height: 450px;
+    margin-top: 382px;
+    padding-top: 69px;
+    padding-left: 240px;
+   
+} 
+#subject{
+    background-color: #FFFFFF;
+    width: 800px;
+    height: 312px;
+    
+    
+}
+#wealth{
+    background-color: #FFBF00;
+    width: 398px;
+    height: 60px; 
+    top: 462px;
+    left: 232px;
+    border-bottom: 8px;
+    box-shadow: 0 5px 10px rgba(133, 88, 6, 0.849); /* Shadow at the bottom */
+   
+}
+#wealth h3{
+    font: lato; 
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 28.8px;
+    padding-top: 20px;
+    padding-left: 5px;
+}
+
+.extra p{
+    width: 752px;
+    
+    padding-left: 20px;
+}
+@media (max-width: 768px) {
+    .huckle {
+        padding: 30px;
+    }
+
+    .huckle h2 {
+        font-size: 1.8em;
+    }
+
+    .huckle p {
+        font-size: 1em;
+    }
+
+    .main {
+        padding: 20px;
+    }
+
+    #subject {
+        padding: 0 15px;
+    }
+
+    #wealth h3 {
+        font-size: 1.3em;
+    }
+
+    .extra p {
+        font-size: 1em;
+    }
+}
+
+@media (max-width: 480px) {
+    .huckle {
+        padding: 20px;
+    }
+
+    .huckle h2 {
+        font-size: 1.5em;
+    }
+
+    .huckle p {
+        font-size: 0.9em;
+    }
+
+    #wealth {
+        padding: 10px;
+    }
+
+    #wealth h3 {
+        font-size: 1.2em;
+    }
+
+    .extra p {
+        font-size: 0.9em;
+    }
+}
